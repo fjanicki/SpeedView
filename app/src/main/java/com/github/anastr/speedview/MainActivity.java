@@ -37,4 +37,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent (MainActivity.this, PointerActivity.class);
         startActivity(intent);
     }
+
+    public void openFuelSpeedometerActivity(View view) {
+        Intent intent = new Intent (MainActivity.this, FuelActivity.class);
+        startActivity(intent);
+    }
+
 }

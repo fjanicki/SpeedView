@@ -21,6 +21,7 @@
         <activity android:name=".AwesomeSpeedometerActivity" />
         <activity android:name=".RayActivity" />
         <activity android:name=".PointerActivity"></activity>
+        <activity android:name=".FuelActivity"/>
     </application>
 
 </manifest>
